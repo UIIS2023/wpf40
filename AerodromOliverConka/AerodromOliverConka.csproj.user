@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Forme\AvioKompanija.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Avion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\AvionskaKarta.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Destinacija.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Let.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Marka.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Model.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Pilot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Forme\Putnik.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Forme\AvioKompanija.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Avion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\AvionskaKarta.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Destinacija.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Let.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Marka.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Model.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Pilot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Forme\Putnik.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

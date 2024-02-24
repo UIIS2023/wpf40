@@ -1,0 +1,21 @@
+﻿<Window x:Class="AerodromOliverConka.Forme.Pilot"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AerodromOliverConka.Forme"
+        mc:Ignorable="d"
+        Title="Pilot" Height="450" Width="800">
+    <Grid>
+        <Label Content="Ime pilota:" HorizontalAlignment="Left" Margin="85,107,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Prezime pilota: " HorizontalAlignment="Left" Margin="85,165,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="JMBG pilota:" HorizontalAlignment="Left" Margin="85,217,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.264,1.052" FontSize="20"/>
+        <Label Content="Adresa pilota:" HorizontalAlignment="Left" Margin="85,272,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.368,-0.462" FontSize="20"/>
+        <TextBox x:Name="txtAdresa" HorizontalAlignment="Left" Margin="259,281,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="txtJMBG" HorizontalAlignment="Left" Margin="259,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="txtPrezime" HorizontalAlignment="Left" Margin="259,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <TextBox x:Name="txtIme" HorizontalAlignment="Left" Margin="259,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="85,368,0,0" VerticalAlignment="Top" Height="30" Width="94" FontSize="20" Click="btnSacuvaj_Click_1"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="259,368,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.316,0.589" FontSize="20" Width="106" Click="btnOtkazi_Click_1"/>
+    </Grid>
+</Window>

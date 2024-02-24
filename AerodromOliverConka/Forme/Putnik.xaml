@@ -1,0 +1,24 @@
+﻿<Window x:Class="AerodromOliverConka.Forme.Putnik"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AerodromOliverConka.Forme"
+        mc:Ignorable="d"
+        Title="Putnik" Height="450" Width="800">
+    <Grid>
+        <Label Content="Ime putnik:" HorizontalAlignment="Left" Margin="82,58,0,0" VerticalAlignment="Top" FontSize="20" Height="42"/>
+        <Label Content="Prezime putnika: " HorizontalAlignment="Left" Margin="82,124,0,0" VerticalAlignment="Top" FontSize="20" Height="41"/>
+        <Label Content="JMBG putnika:" HorizontalAlignment="Left" Margin="82,183,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.264,1.052" FontSize="20" Height="41"/>
+        <Label Content="Adresa putnika:" HorizontalAlignment="Left" Margin="82,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.368,-0.462" FontSize="20" Height="42"/>
+        <TextBox x:Name="txtAdresa" HorizontalAlignment="Left" Margin="256,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Height="33"/>
+        <TextBox x:Name="txtJMBG" HorizontalAlignment="Left" Margin="256,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Height="32"/>
+        <TextBox x:Name="txtPrezime" HorizontalAlignment="Left" Margin="256,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Height="32"/>
+        <TextBox x:Name="txtIme" HorizontalAlignment="Left" Margin="256,58,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Height="32"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="86,363,0,0" VerticalAlignment="Top" Height="34" Width="94" FontSize="20" RenderTransformOrigin="0.5,0.5" Click="btnSacuvaj_Click_1"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="256,362,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.316,0.589" FontSize="20" Width="106" Height="35" Click="btnOtkazi_Click_1"/>
+        <Label Content="Broj pasosa:" HorizontalAlignment="Left" Margin="91,300,0,0" VerticalAlignment="Top" FontSize="20" Width="111"/>
+        <TextBox x:Name="txtBrojPasosa" HorizontalAlignment="Left" Margin="256,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20"/>
+
+    </Grid>
+</Window>
